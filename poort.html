@@ -1,0 +1,255 @@
+
+<!DOCTYPE html>
+<html class="dark" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Content Creator Portfolio</title>
+
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700;900&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+
+<script>
+tailwind.config = {
+  darkMode: "class",
+  theme: {
+    extend: {
+      colors: {
+        primary: "#bd2bee",
+        "background-light": "#f7f6f8",
+        "background-dark": "#1d1022",
+      },
+      fontFamily: {
+        display: ["Be Vietnam Pro", "sans-serif"]
+      }
+    },
+  },
+}
+</script>
+
+<style>
+  .material-symbols-outlined {
+      font-variation-settings:
+      'FILL' 0,
+      'wght' 400,
+      'GRAD' 0,
+      'opsz' 24;
+  }
+</style>
+</head>
+
+<body class="bg-background-light dark:bg-background-dark font-display text-gray-800 dark:text-gray-200">
+
+  <div class="relative flex h-auto min-h-screen w-full flex-col overflow-x-hidden">
+
+    <!-- Header -->
+    <header class="sticky top-0 z-50 flex items-center justify-between border-b border-gray-200/80 dark:border-white/10 px-6 py-4 bg-white dark:bg-background-dark shadow-sm">
+      <div class="flex items-center gap-3">
+        <div class="size-6 text-primary">
+          <svg fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+            <path d="M42.1739 20.1739L27.8261 5.82609..." fill="currentColor"></path>
+          </svg>
+        </div>
+        <h2 class="text-lg font-bold text-gray-900 dark:text-white">Creator's Name</h2>
+      </div>
+
+      <nav class="hidden md:flex items-center gap-8">
+        <a href="port.html" class="text-sm font-medium text-gray-700 dark:text-gray-300 hover:text-primary">Home</a>
+        <a href="poort.html" class="text-sm font-medium text-gray-700 dark:text-gray-300 hover:text-primary">Portfolio</a>
+        <a href="collab.html" class="text-sm font-medium text-gray-700 dark:text-gray-300 hover:text-primary">Collaborations</a>
+        <a href="rate.html" class="text-sm font-medium text-gray-700 dark:text-gray-300 hover:text-primary">Services</a>
+        <a href="about.html" class="text-sm font-medium text-gray-700 dark:text-gray-300 hover:text-primary">About</a>
+      </nav>
+
+      <button id="menu-btn" class="flex items-center justify-center p-2 md:hidden text-gray-900 dark:text-white">
+        <span class="material-symbols-outlined text-3xl">menu</span>
+      </button>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="hidden md:hidden bg-white dark:bg-background-dark border-b border-gray-200/80 dark:border-gray-700 px-6 py-4 space-y-3">
+      <a href="port.html" class="text-sm font-medium text-gray-700 dark:text-gray-300 hover:text-primary">Home</a>
+      <a href="poort.html" class="block text-sm font-medium text-gray-900 dark:text-white hover:text-primary">Portfolio</a>
+      <a href="collab.html" class="block text-sm font-medium text-gray-900 dark:text-white hover:text-primary">Collaborations</a>
+      <a href="rate.html" class="block text-sm font-medium text-gray-900 dark:text-white hover:text-primary">Services</a>
+      <a href="about.html" class="block text-sm font-medium text-gray-900 dark:text-white hover:text-primary">About</a>
+    </div>
+<main class="flex flex-col gap-6 pt-10">
+<div class="flex flex-wrap justify-between gap-4 p-4 items-center">
+<div class="flex min-w-72 flex-col gap-2">
+<p class="text-black dark:text-white text-4xl font-black leading-tight tracking-[-0.033em]">My Work</p>
+<p class="text-black/60 dark:text-white/60 text-base font-normal leading-normal">A showcase of my latest work and brand collaborations.</p>
+</div>
+</div>
+<div class="flex flex-col sm:flex-row gap-3 p-3 items-center justify-between border-b border-black/10 dark:border-white/10">
+<div class="flex gap-2 flex-wrap">
+<button class="flex h-9 shrink-0 items-center justify-center gap-x-2 rounded-lg bg-primary/20 dark:bg-primary/20 px-3 text-primary">
+<p class="text-sm font-medium leading-normal">All</p>
+</button>
+<button class="flex h-9 shrink-0 items-center justify-center gap-x-2 rounded-lg bg-black/5 dark:bg-white/5 px-3 text-black dark:text-white hover:bg-black/10 dark:hover:bg-white/10 transition-colors">
+<p class="text-sm font-medium leading-normal">YouTube</p>
+</button>
+<button class="flex h-9 shrink-0 items-center justify-center gap-x-2 rounded-lg bg-black/5 dark:bg-white/5 px-3 text-black dark:text-white hover:bg-black/10 dark:hover:bg-white/10 transition-colors">
+<p class="text-sm font-medium leading-normal">Instagram</p>
+</button>
+<button class="flex h-9 shrink-0 items-center justify-center gap-x-2 rounded-lg bg-black/5 dark:bg-white/5 px-3 text-black dark:text-white hover:bg-black/10 dark:hover:bg-white/10 transition-colors">
+<p class="text-sm font-medium leading-normal">TikTok</p>
+</button>
+</div>
+<div class="relative">
+
+</div>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 p-4">
+<div class="group relative overflow-hidden rounded-xl aspect-w-3 aspect-h-4 bg-black/10 dark:bg-white/10 cursor-pointer">
+<img class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" data-alt="A person holding a new smartphone in its box" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDJxtBa62Hd-diCCG0SljoIH6fOQb7ZY7h-ZJ90gH0cMAsNECoUL0xY2r0tJ7Zdn76foT6MDzootrHiTYesNaIDafbwiICMymM59quHr6PdAd67KyBDhf10Q1Glo2ct_jm6Z1zXPE50Fsc6_VxhE7HGsv99JvkdUsW8RlVgf_Uzj2Zid2RHXRufGqLM14lM0Qh_dWr3yg2bx3Y2QKYGvOrcKouTsIM4QigHXZG8Uz85YTnsNhFqQ4gAtcSY9zOXwYgmj5jpjFjaFz-z"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent"></div>
+<div class="absolute bottom-0 left-0 p-4 w-full">
+<p class="text-white text-base font-bold leading-tight line-clamp-2">Unboxing the Future of Tech</p>
+<div class="flex items-center gap-2 text-white/80 text-xs mt-1">
+<span class="material-symbols-outlined text-sm">visibility</span>
+<span>1.2M Views</span>
+</div>
+</div>
+<div class="group-hover-item absolute inset-0 bg-black/60 flex flex-col justify-center items-center p-4 opacity-0 transform translateY-4 transition-all duration-300">
+<p class="text-white text-center text-sm mb-4">A first look at the latest flagship phone and its amazing features.</p>
+<button class="bg-primary text-white text-sm font-bold h-9 px-4 rounded-lg">Watch Now</button>
+</div>
+</div>
+<div class="group relative overflow-hidden rounded-xl aspect-w-3 aspect-h-4 bg-black/10 dark:bg-white/10 cursor-pointer">
+<img class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" data-alt="A person filming themselves at a cafe for a vlog" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAUmQol_xqKXHtV01CD1rgFCsKXvjmJsxPU6Wa7KbF2P1mpM8cHgiCEgXfC-ESw7z9Fmu6AIsErticri5-Y5EQVzD-qgI9NXqh59YEfLhDDYP-kBVe6tDTwLdG_uIMcN5VfMX4IuYMoGK2Ibh_j67QLd7O4QzbEiB8UdAZPHJWTjmENJW5qKs-EPggERLc5LQf-eL_e5llZtPw17CodGjE2_ybU6mkGpHV094QsAr74qawDegIbR0La_YJV7nQmcNkO6afI9N5l-dpn"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent"></div>
+<div class="absolute bottom-0 left-0 p-4 w-full">
+<p class="text-white text-base font-bold leading-tight line-clamp-2">A Day in the Life VLOG</p>
+<div class="flex items-center gap-2 text-white/80 text-xs mt-1">
+<span class="material-symbols-outlined text-sm">visibility</span>
+<span>875K Views</span>
+</div>
+</div>
+<div class="group-hover-item absolute inset-0 bg-black/60 flex flex-col justify-center items-center p-4 opacity-0 transform translateY-4 transition-all duration-300">
+<p class="text-white text-center text-sm mb-4">Join me for a typical day of creating content, meetings, and fun.</p>
+<button class="bg-primary text-white text-sm font-bold h-9 px-4 rounded-lg">Watch Now</button>
+</div>
+</div>
+<div class="group relative overflow-hidden rounded-xl aspect-w-3 aspect-h-4 bg-black/10 dark:bg-white/10 cursor-pointer">
+<img class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" data-alt="A hand holding a phone displaying a TikTok comedy video" src="https://lh3.googleusercontent.com/aida-public/AB6AXuASNOhtjX5PFtxr3c6hB2hdM8s3g41CrpSvIWQQicYBT_M8TbaZtinpX09FY4qHtvw3Gbwm6kexl8uLNakeeUCcoOTPbHx_YDiO8K6pWkbZUTzfnW0JVXGbC9yuwcXM9T1kuSo8HxYgitVzo8wHe13RBSNFQ4PomYoF-LwKqEzO1HSPO8S1A6hwho4FLkjclScgeExajb5pGfsTc2rPWnsS9tmiZqFG5eXCyRXq3CYLTJT_b54v2SswAhKXEgsqpsn_HmWFhOhfZc-k"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent"></div>
+<div class="absolute bottom-0 left-0 p-4 w-full">
+<p class="text-white text-base font-bold leading-tight line-clamp-2">Hilarious Comedy Sketch</p>
+<div class="flex items-center gap-2 text-white/80 text-xs mt-1">
+<span class="material-symbols-outlined text-sm">favorite</span>
+<span>2.5M Likes</span>
+</div>
+</div>
+<div class="group-hover-item absolute inset-0 bg-black/60 flex flex-col justify-center items-center p-4 opacity-0 transform translateY-4 transition-all duration-300">
+<p class="text-white text-center text-sm mb-4">When you try to follow a cooking tutorial but have zero skills.</p>
+<button class="bg-primary text-white text-sm font-bold h-9 px-4 rounded-lg">View Post</button>
+</div>
+</div>
+<div class="group relative overflow-hidden rounded-xl aspect-w-3 aspect-h-4 bg-black/10 dark:bg-white/10 cursor-pointer">
+<img class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" data-alt="A trendy outfit displayed on a mannequin for a style review" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBk_XZw9khM8upEFqtL-kqGn4w1Suy2cFAK7-2ebw_KLUf7QBiMyvlvlLZuBFkprL1yMJTyiSz2BrDFPRdyWjf5IBhaBoEGdVk83HfoBn1xsg8oHDTqGCXScRMV3V5pKRxk20lsY6DWk8a-CEmQeznU-tHczzrqZxjAIcbNQtQx45cN-IEvtPNska6WDbATmesA7byRObowbtA1iy5RI47-s0XsBgylLdDsp8w3kaLDJRe12BfaNAq9oV2MR2pujI6u5GSizpaHZA3L"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent"></div>
+<div class="absolute bottom-0 left-0 p-4 w-full">
+<p class="text-white text-base font-bold leading-tight line-clamp-2">Brand Collab: Style Review</p>
+<div class="flex items-center gap-2 text-white/80 text-xs mt-1">
+<span class="material-symbols-outlined text-sm">favorite</span>
+<span>150K Likes</span>
+</div>
+</div>
+<div class="group-hover-item absolute inset-0 bg-black/60 flex flex-col justify-center items-center p-4 opacity-0 transform translateY-4 transition-all duration-300">
+<p class="text-white text-center text-sm mb-4">Partnered with a top fashion brand to showcase their new collection.</p>
+<button class="bg-primary text-white text-sm font-bold h-9 px-4 rounded-lg">View Case Study</button>
+</div>
+</div>
+<div class="group relative overflow-hidden rounded-xl aspect-w-3 aspect-h-4 bg-black/10 dark:bg-white/10 cursor-pointer">
+<img class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" data-alt="A scenic mountain range at sunrise" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCfv4PZwTvSuxEstXpAb9Kw-6h027LpAKgkaDINKpl8acKnl-OmDLC20d9bYCYaVyrNa15LGr-Gr6Hw3syB5AIhSOKLPSwNPuD9ZPTKhFqOLCHNsQhocSiLdIhw9hpq8JlN9bUFIithmwmrpJH0r_13uy2U8Ud-YiRtc9-sLiDZw-wYsl-JJCEvAq-TiusMGOdJDOd0kTLITdpnjcLlMRysJiImNZF9TSA80icxV6fPKptHNoeMhi6M8M5MV-VsHQAB0NGTsey4p_AB"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent"></div>
+<div class="absolute bottom-0 left-0 p-4 w-full">
+<p class="text-white text-base font-bold leading-tight line-clamp-2">Travel Diary: Mountain Views</p>
+<div class="flex items-center gap-2 text-white/80 text-xs mt-1">
+<span class="material-symbols-outlined text-sm">visibility</span>
+<span>480K Views</span>
+</div>
+</div>
+<div class="group-hover-item absolute inset-0 bg-black/60 flex flex-col justify-center items-center p-4 opacity-0 transform translateY-4 transition-all duration-300">
+<p class="text-white text-center text-sm mb-4">Capturing the breathtaking beauty of the Swiss Alps.</p>
+<button class="bg-primary text-white text-sm font-bold h-9 px-4 rounded-lg">Watch Now</button>
+</div>
+</div>
+<div class="group relative overflow-hidden rounded-xl aspect-w-3 aspect-h-4 bg-black/10 dark:bg-white/10 cursor-pointer">
+<img class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" data-alt="A flatlay of a laptop, coffee, and a notebook" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCWTlTkvq8ZD73PAlybjG6T_pIKZd5c6p9UeRVon3wZ7sMnrgd01P8B1RTEOXZFxzWfPvGgfUMI79cGTrLBVzHhJhCZqZR6IAsula7AzNc-01SxEHrtUpyxzvYGle7UKvWt8kC0IuZFGwAlxPnP6ue3FKZTTWsKkka673vh0UyNipb74btA07yQ_--XHZK_asgHwxzNxFUvMBOwkrIWBxcDpYo2FEIXbQVNyFlW7i5HiHpndWNJ9FpZLbOW1B8zBPi9JkCyc-JuxTWm"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent"></div>
+<div class="absolute bottom-0 left-0 p-4 w-full">
+<p class="text-white text-base font-bold leading-tight line-clamp-2">My Top 5 Lifestyle Hacks</p>
+<div class="flex items-center gap-2 text-white/80 text-xs mt-1">
+<span class="material-symbols-outlined text-sm">visibility</span>
+<span>990K Views</span>
+</div>
+</div>
+<div class="group-hover-item absolute inset-0 bg-black/60 flex flex-col justify-center items-center p-4 opacity-0 transform translateY-4 transition-all duration-300">
+<p class="text-white text-center text-sm mb-4">Simple tricks I use daily to stay productive and organized.</p>
+<button class="bg-primary text-white text-sm font-bold h-9 px-4 rounded-lg">Watch Now</button>
+</div>
+</div>
+<div class="group relative overflow-hidden rounded-xl aspect-w-3 aspect-h-4 bg-black/10 dark:bg-white/10 cursor-pointer">
+<img class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" data-alt="A person wearing headphones at a gaming setup with neon lights" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAGw-ElOEqoKlTNMh9jnknrlP0VZqxNqSY9I4wgtfBKjoQw-usnyWMMu2P2ZN5P0OAWMtjjjkzdE6MlxgL0P-7MJZHp8riqbaRllHy7HfhGrBPsw87rUuPFSPr76eev3GTroF6GG8euM_CU72mGsYfSAwquwtzHs8Pgbw7Gi1wwZnoXnw7z2SiD3055z992wxWRdoHB8oMnqtfzA4GBO2v8fgOfuRpDW3h5ofPfkn-vKCl4Ufw6VFYbAyNqIDqkoXdnDNW7PAoPADHH"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent"></div>
+<div class="absolute bottom-0 left-0 p-4 w-full">
+<p class="text-white text-base font-bold leading-tight line-clamp-2">Gaming Marathon Highlights</p>
+<div class="flex items-center gap-2 text-white/80 text-xs mt-1">
+<span class="material-symbols-outlined text-sm">visibility</span>
+<span>1.8M Views</span>
+</div>
+</div>
+<div class="group-hover-item absolute inset-0 bg-black/60 flex flex-col justify-center items-center p-4 opacity-0 transform translateY-4 transition-all duration-300">
+<p class="text-white text-center text-sm mb-4">The best moments from my 24-hour charity gaming stream.</p>
+<button class="bg-primary text-white text-sm font-bold h-9 px-4 rounded-lg">Watch Now</button>
+</div>
+</div>
+<div class="group relative overflow-hidden rounded-xl aspect-w-3 aspect-h-4 bg-black/10 dark:bg-white/10 cursor-pointer">
+<img class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105" data-alt="A video editing software interface shown on a computer screen" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCNbeit6-bDGcpP7UIg0sSddI2m3urknAuoYqKoKLyoN0lmOVkDiGJZD09Lu71tK-h55sXBfICo6ChEHdA1nJ5dwQnq5q1QB78D9UNxEeIvtrXJZONPzN8ifVxn_2KDbporCIBj36AvPwSUG9yqW_IMdudOhWD2G97RQ1mzIr5uAoXLmhGvKmX7weDsxDtbY_DXlKEU70Df08k2_HbPEAdTaQQ7wayk4K5DKbioYDT8rgb_FLe-2pSTAST8wtaPVRej2VRGEWhvexCy"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent"></div>
+<div class="absolute bottom-0 left-0 p-4 w-full">
+<p class="text-white text-base font-bold leading-tight line-clamp-2">How to Edit Viral Videos</p>
+<div class="flex items-center gap-2 text-white/80 text-xs mt-1">
+<span class="material-symbols-outlined text-sm">visibility</span>
+<span>650K Views</span>
+</div>
+</div>
+<div class="group-hover-item absolute inset-0 bg-black/60 flex flex-col justify-center items-center p-4 opacity-0 transform translateY-4 transition-all duration-300">
+<p class="text-white text-center text-sm mb-4">A tutorial on the editing techniques that make videos pop.</p>
+<button class="bg-primary text-white text-sm font-bold h-9 px-4 rounded-lg">Watch Now</button>
+</div>
+</div>
+</div>
+<div class="flex items-center justify-center p-4 mt-4">
+<a class="flex size-10 items-center justify-center text-black/50 dark:text-white/50 hover:text-primary dark:hover:text-primary transition-colors" href="#">
+<span class="material-symbols-outlined text-2xl">chevron_left</span>
+</a>
+<a class="text-sm font-bold leading-normal tracking-[0.015em] flex size-10 items-center justify-center text-white rounded-full bg-primary" href="#">1</a>
+<a class="text-sm font-normal leading-normal flex size-10 items-center justify-center text-black dark:text-white rounded-full hover:bg-primary/20 dark:hover:bg-primary/20 transition-colors" href="#">2</a>
+<a class="text-sm font-normal leading-normal flex size-10 items-center justify-center text-black dark:text-white rounded-full hover:bg-primary/20 dark:hover:bg-primary/20 transition-colors" href="#">3</a>
+<span class="text-sm font-normal leading-normal flex size-10 items-center justify-center text-black dark:text-white rounded-full">...</span>
+<a class="text-sm font-normal leading-normal flex size-10 items-center justify-center text-black dark:text-white rounded-full hover:bg-primary/20 dark:hover:bg-primary/20 transition-colors" href="#">8</a>
+<a class="flex size-10 items-center justify-center text-black/50 dark:text-white/50 hover:text-primary dark:hover:text-primary transition-colors" href="#">
+<span class="material-symbols-outlined text-2xl">chevron_right</span>
+</a>
+</div>
+</main>
+</div>
+</div>
+</div>
+</div>
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const menuBtn = document.getElementById('menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    menuBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+  });
+</script>
+</body></html>
